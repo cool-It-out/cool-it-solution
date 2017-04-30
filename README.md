@@ -28,50 +28,50 @@ Imagine coming in from battling the cold weather outside, only to find it just a
 
 
 ## Technologies Used:
-..*  HTML
-..*   CSS
-..*   JavaScript
-..*   Node.js
-..*   SQL
-..*   Twilio
-..*   Open Weather Map API
-..*   Temperature Sensor
-..*   Intel Edison w/Arduino Expansion Board
-..*   Cisco Meraki (possible hardware implementation of the centralized management system) or Software solution for the control system
+*  HTML
+*   CSS
+*   JavaScript
+*   Node.js
+*   SQL
+*   Twilio
+*   Open Weather Map API
+*   Temperature Sensor
+*   Intel Edison w/Arduino Expansion Board
+*   Cisco Meraki (possible hardware implementation of the centralized management system) or Software solution for the control system
 
 
 ## Installation instructions for dependencies:
 This project includes a package.JSON file which provides details for the above dependencies and others. These files are imported into the node_modules folder by Node Package Manager. 
-..*   Download or clone repo.
-..*   Run npm install in terminal.
-..*   Run npm start from terminal.
+*   Download or clone repo.
+*   Run npm install in terminal.
+*   Run npm start from terminal.
 
 
 ## Build Strategy:
 
 ### Planning Stages:
-..*   Connecting Edison to Expansion Board 
-..*   Connecting Temperature Sensor to Analog connector in this case A0
-..*   Convert Analog readings into actual temperatures
+*   Connecting Edison to Expansion Board 
+*   Connecting Temperature Sensor to Analog connector in this case A0
+*   Convert Analog readings into actual temperatures
 *   Analog  Celsius  Fahrenheit
-..*   Connect backend to Weather API to fetch outdoor temperature
-..*   Set restrictions that both indoor and outdoor temperatures meet the condition for the complaint to be filed for the periods between October 1st to May 31st 
+*   Connect backend to Weather API to fetch outdoor temperature
+*   Set restrictions that both indoor and outdoor temperatures meet the condition for the complaint to be filed for the periods between October 1st to May 31st 
 *   6a-10p; 68° indoors, 55° outdoors
 *   10p-6a; 55° indoors, 40° outdoors
-..*   Implement Twilio 
-..*   Automatic form filler to match 311 complaint website
+*   Implement Twilio 
+*   Automatic form filler to match 311 complaint website
 
 
 ## Unsolved problems or major hurdles team had to overcome:
-..*   Due to the lack of time, we were unable to build a functioning application by deadline, because we spent a lot of time working with the hardware and compatibility issues.  
-..*   We experienced issues with MRAA module/LIBMRAA0 not connecting properly and setting up the XDK server port.
+*   Due to the lack of time, we were unable to build a functioning application by deadline, because we spent a lot of time working with the hardware and compatibility issues.  
+*   We experienced issues with MRAA module/LIBMRAA0 not connecting properly and setting up the XDK server port.
 
 
 ## Possible Future Improvements:
 
 ### In no particular order, we would like to add:
-..*   Provide the service to different metropolitan cities, with their city mandate information
-..*   Provide an overall temperature monitoring system for all seasons, to always to check on love ones regardless of the season
+*   Provide the service to different metropolitan cities, with their city mandate information
+*   Provide an overall temperature monitoring system for all seasons, to always to check on love ones regardless of the season
 *   Nursing homes, daycares, etc.
 
 
