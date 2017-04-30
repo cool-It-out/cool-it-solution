@@ -76,10 +76,11 @@ This project includes a package.JSON file which provides details for the above d
 
 
 ## Authors:
-Shantel
-Sky
-Quin
-Contributing Designers: 
+1. Shantel
+2. Sky
+3. Quin
+
+### Contributing Designers: 
 Michaela and Po
 
 
